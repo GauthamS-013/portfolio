@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<title>Gautham Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('image3.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">My Skills</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Profile</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Gautham S</b></h1>
+    <p><b>Computer Science Student.</b></p>
+    <img src="image3.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="image3.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2><b>Profile</b></h2>
+    <hr class="w3-opacity">
+    <p>A Computer Science student from APJ Abdul Kalam Technological University,
+        passionate about web and UI development. Proven problem-solving abilities
+        with hands-on experience in real-world projects. Adaptable team player with a
+        passion for innovation, eager to contribute and learn in a professional setting.        
+    </p>
+    <h3 class="w3-padding-16" ><b>My Skills</b></h3>
+    <p class="w3-wide">Flutter</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+    </div>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:65%">65%</div>
+    </div>
+    <p class="w3-wide">Dart</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:40%">40%</div>
+    </div>
+    <p class="w3-wide">Communication</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide">Teamwork</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
+    </div>
+    <br>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i><a href="Resume (1)" download>Download Resume</a> 
+    </button>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24"><b>Education</b></h3>
+    <p><span class="w3-large w3-text-black w3-margin-right">SECONDARY SCHOOL</p>
+    <p>Seva Mandir Post Basic HSS 2018-2020</p><br>
+   
+    <p><span class="w3-large w3-text-black w3-margin-right">BACHELOR OF TECHNOLOGY</p>
+    <p>APJ Abdul Kalam Technological University 2020-2024</p><br>
+    
+    
+    <!-- Grid for pricing tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <h3 class="w3-padding-16"><b>My Recent Works</b></h3>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>RiceMapEngine</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2023 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>A Google earth engine based web app for fast paddy rice mapping.
+            Identify area under rice production. </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>GOCHARGE- AN EV CHARGING STATION FINDER APPLICATION</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2023 - July 2023</h6>
+          <p>An app designed to find nearby EV charging stations.
+            Provides option to book slots and where the stations are in a map.
+            Developed as an android app using Flutter.
+            </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>GYM PLANNER</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2022 - Jan 2023</h6>
+          <p>A Gym planning website that can track,analyse and compute your
+            workout pattern.
+            Options to create accounts where u can track your daily progress and as
+            well as calculate required information such as BMI ,required improve‑
+            ment, etc
+            </p>
+          <hr>
+        </div>
+      </div>
+      
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ayikkarappadi, Malappuram</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 7736834013</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: gauthams779@gmail.com</p>
+    </div>
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="mailto:gauthams779@gmail.com" method="post" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name" autocomplete="off"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email" autocomplete="off"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject" autocomplete="off"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message" autocomplete="off"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <a href="https://www.facebook.com/gautham.suresh.50/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/gauthm_.s/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://github.com/GauthamS-013"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/in/gautham-s-6b4a08271/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
